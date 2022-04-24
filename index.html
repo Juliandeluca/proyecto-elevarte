@@ -9,7 +9,7 @@
     <title>Elevarte Agencia</title>
 
     <!-- LINK A MI CSS -->
-    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
   </head>
 
@@ -20,58 +20,59 @@
 
     <header>
         <!-- LOGO -->
-        <a href="index.html">
-        <img class="logo" src="../multimedia/logo.png" alt="logo">
+        <a class="cont-logo" href="index.html">
+        <img class="logo" src="./multimedia/logo.png" alt="logo">
       </a>
       <nav>
     
         <!-- LINK-NAV -->
 
         <ul>
+          <div class="parte-arriba">
           <li><a class="item-1" href="./paginas/servicios.html">Servicios</a></li>
           <li><a class="item-1" href="./paginas/sobrenosotros.html">Sobre Nosotros</a></li>
+        </div>
+        <div class="parte-abajo">
           <li><a class="item-1" href="./paginas/dgrafico.html">Diseño grafico</a></li>
           <li><a class="item-1" href="./paginas/contactanos.html">Contactanos</a></li>
-          <li><a class="item-1" href="index.html">Inicio</a></li>
+          <li><a class="item-1 inicio" href="index.html">Inicio</a></li>
+        </div>
         </ul>
       </nav>
     </header>
 
   <!-- IMAGENES -->
-    <img class="equipo" src="multimedia/equipo.jpg" alt="equipo">
-    <img class="proyecto" src="./multimedia/proyecto.jpg" alt="proyecto">
-
-  <!-- TEXTO -->
-  
-  <section class="texto-equipo">
+  <div class="contenedor-equipo">
+     <img class="equipo" src="./multimedia/equipo.jpg" alt="equipo">
+     <section class="texto-equipo">
       <p>
         Cada red social tiene una manera de funcionar y cumple en mayor o menor medida unos objetivos. Elegir las plataformas en las que tendremos más presencia es crucial para conseguir nuestros objetivos y lograr una buena reputación de marca , Un community manager sabrá mejor que nadie en qué plataformas conviene que esté tu empresa, de qué forma y los tipos de contenidos que necesita compartir, generando interacción entre sus usuarios, Una buena estrategia es vital para que la inclusión de una estrategia en redes sociales sea efectiva y no se quede en una simple anécdota.
       </p>
   </section>
-
+  </div>
+<div class="contenedor-textopro">
+    <img class="proyecto" src="./multimedia/proyecto.jpg" alt="proyecto">
     <section class="texto-proyecto">
       <p>
         Cada vez escuchamos más en diferentes entornos acerca de la importancia de la comunicación en las marcas,Tener un buen plan de comunicación ayudará a la empresa acercarse a sus potenciales clientes y a posicionarse de una manera positiva, El plan de comunicación en la empresa ayudará a fortalecer la imagen de marca de esta forma, podremos trabajar la fidelización con nuestros potenciales clientes!
         El plan de comunicación externa nos ayudará a conseguir una mayor visibilidad, notoriedad e impacto.
       </p>
     </section>
+  </div> 
 
 <!-- SUBTITULO -->
-<main>
+<div class="contenedor-video">
   <h2 class="subtitulo">Campañas de marketing digital pensadas y diseñadas localmente para cada negocio y cada cliente.</h2>
-</main>
   <!-- VIDEOMARKETING -->
-
-  <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/537zVur1U5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="iframe">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/537zVur1U5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
   <!-- FOOTER -->
 
   <footer>
     <p class="footer">
       Copyright - todos los derechos reservados
-    </p>
-    <p class="footer">
-      infoelevarteagencia@gmail.com
     </p>
     <p class="footer">
       Seguinos en nuestras redes sociales:
