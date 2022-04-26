@@ -11,8 +11,8 @@
 <body>
   <header>
     <!-- LOGO -->
-    <a class="cont-logo" href="index.html">
-    <img class="logo" src="./multimedia/logo.png" alt="logo">
+    <a class="cont-logo" href="../index.html">
+    <img class="logo" src="../multimedia/logo.png" alt="logo">
   </a>
   <nav>
 
@@ -20,39 +20,34 @@
 
     <ul>
       <div class="parte-arriba">
-      <li><a class="item-1" href="./paginas/servicios.html">Servicios</a></li>
-      <li><a class="item-1" href="./paginas/sobrenosotros.html">Sobre Nosotros</a></li>
+      <li><a class="item-1" href="servicios.html">Servicios</a></li>
+      <li><a class="item-1" href="sobrenosotros.html">Sobre Nosotros</a></li>
     </div>
     <div class="parte-abajo">
-      <li><a class="item-1" href="./paginas/dgrafico.html">Diseño grafico</a></li>
-      <li><a class="item-1" href="./paginas/contactanos.html">Contactanos</a></li>
-      <li><a class="item-1 inicio" href="index.html">Inicio</a></li>
+      <li><a class="item-1" href="dgrafico.html">Diseño grafico</a></li>
+      <li><a class="item-1" href="contactanos.html">Contactanos</a></li>
+      <li><a class="item-1 inicio" href="../index.html">Inicio</a></li>
     </div>
     </ul>
   </nav>
 </header>
 
-    <form class="form" action="" method="" enctype="">
-        <div>
-            <label for="">Correo Electronico</label>
-            <input type="text">
-        </div>
-
-        <div>
-            <label for="">Contraseña</label>
-            <input type="password">
-        </div>
-
-        <div>
-            <label for="">Adjunte informacion Adicional</label>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-        </div>
-    
-        
-        <input type="button" value="Enviar formulario de contacto">
-
-    </form> 
-
+  <main>
+  <div class="form">
+    <div class="form-contacto">
+        <form action="">
+            <label for="nombre">Nombre y Apellido</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre y apellido...">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="ejemplo@gmail.com">
+            <label for="asunto">Mensaje</label>
+            <textarea id="asunto" name="asunto" placeholder="Tu mensaje..." style="height:100px">    
+</textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</div>
+</main>
     <!-- FOOTER -->
 
     <footer>
