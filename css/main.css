@@ -1,17 +1,22 @@
+:root{
+  --violeta:#28022b;
+  --amarillo:#f6c706;
+}
+
 *  {
   box-sizing: border-box ; 
   padding: 0 ;
   margin: 0 ;  
 }
 a {
-  color: #28022b;
+  color: var(--amarillo);
   font-family: sans-serif;
   text-decoration: none;
 }
 
 body {
   font-family: sans-serif;
-  background-color: #28022b;
+  background-color: var(--amarillo);
 }
  /*---------------------------------- INICIO NAVBAR ---------------------------------------- */
 header {
@@ -53,7 +58,7 @@ flex-direction: row;
   flex-direction: row;
 }
 nav {
-  background-color: #f6c706;
+  background-color: var(--violeta);
   width: 100%;
   margin-top: -50px;
 }
@@ -93,7 +98,7 @@ align-items: center;
   }
 
   .equipo:hover{
-    box-shadow: 10px 10px 8px #f6c706;
+    box-shadow: 10px 10px 8px var(--violeta);
   }
 
 .texto-equipo {
@@ -118,7 +123,7 @@ align-items: center;
 }
 
 .proyecto:hover{
-  box-shadow: 10px 10px 8px #f6c706;
+  box-shadow: 10px 10px 8px var(--violeta);
 }
 
 .texto-proyecto {
@@ -138,7 +143,7 @@ align-items: center;
 }
 h2 {
   width: 60%;
-  color: #f6c706;
+  color: var(--violeta);
   font-size: 30px;
   font-weight: 200px;
   text-align: center;
@@ -183,7 +188,7 @@ textarea {
 }
 
 input[type=submit] {
-    background-color: #28022b;
+    background-color: var(--amarillo);
     color: white;
     padding: 12px 20px;
     border: none;
@@ -192,7 +197,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #f6c706;
+    background-color: var(--violeta);
 }
 
 .form-contacto {
@@ -202,7 +207,7 @@ input[type=submit]:hover {
     transition: all .5s;
 }
 .form-contacto:hover{
-  box-shadow: 10px 10px 8px #f6c706;
+  box-shadow: 10px 10px 8px var(--violeta);
 }
 /*----------------- SERVICIOS ------------------ */
  .cont-serv{
@@ -220,7 +225,7 @@ input[type=submit]:hover {
       }
 
       .servicio:hover{
-        box-shadow: 10px 10px 8px #f6c706;
+        box-shadow: 10px 10px 8px var(--violeta);
       }
     
     .tservi {
@@ -262,7 +267,7 @@ input[type=submit]:hover {
     }
     
     .dgrafico:hover{
-      box-shadow: 10px 10px 8px #f6c706;
+      box-shadow: 10px 10px 8px var(--violeta);
     }
 
     .tdgrafico {
@@ -289,7 +294,7 @@ input[type=submit]:hover {
     }
     
     .nosotros:hover{
-      box-shadow: 10px 10px 8px #f6c706;
+      box-shadow: 10px 10px 8px var(--violeta);
     }
 
     .tnosotros {
@@ -303,13 +308,13 @@ input[type=submit]:hover {
   .footer {
     width: 100%;
     font-size: 20px;
-    color: #28022b;
+    color: var(--amarillo);
     text-align: center;
     margin-top: 1rem;
   }
   
   footer {
-    background-color: #f6c706;
+    background-color: var(--violeta);
     width: 100%;
     font-family: sans-serif;
     font-weight: 550;
