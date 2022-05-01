@@ -24,7 +24,9 @@ header {
 
 .logo {
   width: 50%;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+
 }
 
 .cont-logo{
@@ -87,8 +89,12 @@ align-items: center;
   height: auto;
   border-radius: 3px;
   margin: 1rem;
-  
-}
+  transition: all .5s;
+  }
+
+  .equipo:hover{
+    box-shadow: 10px 10px 8px #f6c706;
+  }
 
 .texto-equipo {
   width: 60%;
@@ -108,9 +114,12 @@ align-items: center;
   height: auto;
   border-radius: 3px;
   margin: 1rem;
-  
+  transition: all .5s;
 }
 
+.proyecto:hover{
+  box-shadow: 10px 10px 8px #f6c706;
+}
 
 .texto-proyecto {
   width: 60%;
@@ -190,6 +199,10 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    transition: all .5s;
+}
+.form-contacto:hover{
+  box-shadow: 10px 10px 8px #f6c706;
 }
 /*----------------- SERVICIOS ------------------ */
  .cont-serv{
@@ -203,8 +216,12 @@ input[type=submit]:hover {
       height: auto;
       border-radius: 3px;
       margin: 1rem;
-      
-    }
+      transition: all .5s;
+      }
+
+      .servicio:hover{
+        box-shadow: 10px 10px 8px #f6c706;
+      }
     
     .tservi {
       width: 60%;
@@ -240,9 +257,14 @@ input[type=submit]:hover {
       height: auto;
       border-radius: 3px;
       margin: 1rem;
+      transition: all .5s;
       
     }
     
+    .dgrafico:hover{
+      box-shadow: 10px 10px 8px #f6c706;
+    }
+
     .tdgrafico {
       width: 60%;
       font-size: 18px;
@@ -262,9 +284,14 @@ input[type=submit]:hover {
       height: auto;
       border-radius: 3px;
       margin: 1rem;
+      transition: all .5s;
       
     }
     
+    .nosotros:hover{
+      box-shadow: 10px 10px 8px #f6c706;
+    }
+
     .tnosotros {
       width: 60%;
       font-size: 18px;
