@@ -26,6 +26,9 @@ header {
   padding: 0px;
 }
 
+.menu-burger{
+  background-color: black;
+}
 .logo {
   width: 50%;
   margin-bottom: 5rem;
