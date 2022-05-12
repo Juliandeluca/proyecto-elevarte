@@ -17,6 +17,10 @@ body {
   font-family: sans-serif;
   background-color: var(--violeta);
 }
+
+main{
+  min-height: 90vh;
+}
  /*---------------------------------- INICIO NAVBAR ---------------------------------------- */
 header {
   display: flex;
@@ -168,6 +172,13 @@ h2 {
 
   .main-contacto {
     margin: 1rem;
+}
+
+
+.formulariocontacto{
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .form{
