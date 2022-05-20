@@ -51,9 +51,9 @@ li {
 
 .contenedor-equipo {
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  align-items: center; }
+  flex-direction: column; }
 
 .equipo {
   width: 60%;
@@ -73,9 +73,9 @@ li {
 
 .contenedor-textopro {
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  align-items: center; }
+  flex-direction: column; }
 
 .proyecto {
   width: 60%;
@@ -95,9 +95,9 @@ li {
 
 .contenedor-video {
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  align-items: center; }
+  flex-direction: column; }
 
 h2 {
   width: 60%;
@@ -189,9 +189,9 @@ input[type=submit] {
 
 .cont-dgrafico {
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  align-items: center; }
+  flex-direction: column; }
 
 .dgrafico {
   width: 60%;
@@ -211,9 +211,9 @@ input[type=submit] {
 
 .cont-nos {
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  align-items: center; }
+  flex-direction: column; }
 
 .nosotros {
   width: 60%;

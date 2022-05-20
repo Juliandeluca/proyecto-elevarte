@@ -1,8 +1,15 @@
-.contenedor-equipo {
+@mixin center { 
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
+}
+
+
+
+
+.contenedor-equipo {
+	@include center;
+	flex-direction: column;
 }
 .equipo {
 	width: 60%;
@@ -22,10 +29,8 @@
 	text-align: center;
 }
 .contenedor-textopro {
-	display: flex;
+	@include center;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 }
 .proyecto {
 	width: 60%;
@@ -45,10 +50,8 @@
 	text-align: center;
 }
 .contenedor-video {
-	display: flex;
+	@include center;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 }
 h2 {
 	width: 60%;
@@ -75,9 +78,7 @@ h2 {
 	margin: 1rem;
 }
 .formulariocontacto {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	@include center;
 }
 .form {
 	margin: 2rem;
@@ -132,9 +133,7 @@ input[type=submit] {
 	}
 }
 .container-cartita {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	@include center;
 	margin: 1rem;
 }
 .cartitas {
@@ -143,10 +142,9 @@ input[type=submit] {
 	justify-content: space-between;
 }
 .cont-dgrafico {
-	display: flex;
+	@include center;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	
 }
 .dgrafico {
 	width: 60%;
@@ -166,10 +164,8 @@ input[type=submit] {
 	text-align: center;
 }
 .cont-nos {
-	display: flex;
+	@include center;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 }
 .nosotros {
 	width: 60%;
