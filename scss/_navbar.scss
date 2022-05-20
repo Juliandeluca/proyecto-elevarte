@@ -22,14 +22,18 @@ ul {
 	font-weight: 600;
 	text-align: center;
 }
-.parte-arriba {
-	display: flex;
-	flex-direction: row;
+
+/// MAPS
+$partes: (arriba: flex , abajo: flex);
+@each $parte, $flex in $partes
+ {
+	.parte-#{$parte} {
+		display: $flex;
+		flex-direction: row;
+		}
+		
 }
-.parte-abajo {
-	display: flex;
-	flex-direction: row;
-}
+
 nav {
 	background-color: $amarillo;
 	width: 100%;
