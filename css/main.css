@@ -235,6 +235,21 @@ img:hover {
   font-weight: 200px;
   text-align: center; }
 
+.diseni {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.diseniii {
+  width: 60%;
+  height: auto;
+  margin-top: 2rem;
+  border-radius: 3px;
+  transition: all .5s; }
+
+img:hover {
+  box-shadow: 10px 10px 8px #f6c706; }
+
 .cont-nos {
   display: flex;
   align-items: center;

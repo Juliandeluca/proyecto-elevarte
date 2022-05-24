@@ -198,6 +198,20 @@ font-size: 2rem;
 	font-weight: 200px;
 	text-align: center;
 }
+
+.diseni{
+	@include center;
+}
+
+.diseniii{
+	width: 60%;
+	height: auto;
+	margin-top: 2rem;
+	border-radius: 3px;
+	transition: all .5s; }
+	img:hover {
+	  box-shadow: 10px 10px 8px #f6c706;
+}
 .cont-nos {
 	@include center;
 	flex-direction: column;
