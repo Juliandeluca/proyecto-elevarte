@@ -51,10 +51,7 @@
 	font-weight: 200px;
 	text-align: center;
 }
-.contenedor-video {
-	@include center;
-	flex-direction: column;
-}
+
 h2 {
 	width: 60%;
 	color: $amarillo;
@@ -63,19 +60,33 @@ h2 {
 	text-align: center;
 	@extend .video;
 }
-.iframe {
-	display: flex;
-	justify-content: center;
-	height: 450px;
-	iframe {
-		position: absolute;
-		height: 50%;
-		width: 50%;
-	}
+
+.text-contact{
+	color: white;
+@include center;
+text-align: justify;
+line-height: 1.2;
+margin: 2rem;
+font-size: 1.2rem;
 }
 
 .main-contacto {
 	@extend .video;
+}
+
+.contact-img{
+	width: 60%;
+	height: auto;
+	margin-top: 2rem;
+	border-radius: 3px;
+	transition: all .5s; }
+	img:hover {
+	  box-shadow: 10px 10px 8px #f6c706;
+}
+
+.contact-imgg{
+	@include center;
+
 }
 .formulariocontacto {
 	@include center;
@@ -135,12 +146,36 @@ input[type=submit] {
 .container-cartita {
 	@include center;
 	@extend .video;
+	margin-top: 3rem;
 }
 .cartitas {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
+
+.textservi{
+color: white;
+@include center;
+text-align: center;
+margin: 5rem;
+font-size: 2rem;
+}
+
+.imgservicc{
+	width: 60%;
+  height: auto;
+  margin-bottom: 3rem;
+  border-radius: 3px;
+  transition: all .5s; }
+  img:hover {
+    box-shadow: 10px 10px 8px #f6c706;
+}
+
+.padreservicc{
+	@include center;
+}
+
 .cont-dgrafico {
 	@include center;
 	flex-direction: column;
@@ -176,6 +211,10 @@ input[type=submit] {
 	&:hover {
 		box-shadow: 10px 10px 8px $amarillo;
 	}
+}
+
+.sobrenos{
+	@include center;
 }
 .tnosotros {
 	width: 60%;

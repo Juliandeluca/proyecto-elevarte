@@ -94,12 +94,6 @@ li {
   font-weight: 200px;
   text-align: center; }
 
-.contenedor-video {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column; }
-
 h2 {
   width: 60%;
   color: #f6c706;
@@ -107,14 +101,30 @@ h2 {
   font-weight: 200px;
   text-align: center; }
 
-.iframe {
+.text-contact {
+  color: white;
   display: flex;
+  align-items: center;
   justify-content: center;
-  height: 450px; }
-  .iframe iframe {
-    position: absolute;
-    height: 50%;
-    width: 50%; }
+  text-align: justify;
+  line-height: 1.2;
+  margin: 2rem;
+  font-size: 1.2rem; }
+
+.contact-img {
+  width: 60%;
+  height: auto;
+  margin-top: 2rem;
+  border-radius: 3px;
+  transition: all .5s; }
+
+img:hover {
+  box-shadow: 10px 10px 8px #f6c706; }
+
+.contact-imgg {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .formulariocontacto {
   display: flex;
@@ -172,12 +182,37 @@ input[type=submit] {
 .container-cartita {
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 3rem; }
 
 .cartitas {
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
+
+.textservi {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 5rem;
+  font-size: 2rem; }
+
+.imgservicc {
+  width: 60%;
+  height: auto;
+  margin-bottom: 3rem;
+  border-radius: 3px;
+  transition: all .5s; }
+
+img:hover {
+  box-shadow: 10px 10px 8px #f6c706; }
+
+.padreservicc {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .cont-dgrafico {
   display: flex;
@@ -213,6 +248,11 @@ input[type=submit] {
   transition: all .5s; }
   .nosotros:hover {
     box-shadow: 10px 10px 8px #f6c706; }
+
+.sobrenos {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .tnosotros {
   width: 60%;
