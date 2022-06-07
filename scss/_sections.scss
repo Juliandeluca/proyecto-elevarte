@@ -66,7 +66,7 @@ h2 {
 .text-contact{
 	color: white;
 @include center;
-text-align: justify;
+text-align: center;
 line-height: 1.2;
 margin: 2rem;
 font-size: 1.2rem;
@@ -79,7 +79,6 @@ font-size: 1.2rem;
 .contact-img{
 	width: 60%;
 	height: auto;
-	margin-top: 2rem;
 	border-radius: 3px;
 	transition: all .5s; }
 	img:hover {
@@ -171,11 +170,12 @@ font-size: 2rem;
   height: auto;
   margin-bottom: 3rem;
   border-radius: 3px;
-  transition: all .5s; }
+  transition: all .5s; 
+  img{width: 100%;}
   img:hover {
     box-shadow: 10px 10px 8px #f6c706;
 }
-
+}
 .padreservicc{
 	@include center;
 }
@@ -212,6 +212,7 @@ font-size: 2rem;
 	width: 60%;
 	height: auto;
 	margin-top: 2rem;
+	margin-bottom: 2rem;
 	border-radius: 3px;
 	transition: all .5s; }
 	img:hover {
@@ -224,7 +225,7 @@ font-size: 2rem;
 	flex-direction: column;
 }
 .nosotros {
-	width: 60%;
+	width: 80%;
 	height: auto;
 	border-radius: 3px;
 	@extend .video;
@@ -238,7 +239,7 @@ font-size: 2rem;
 	@include center;
 }
 .tnosotros {
-	width: 60%;
+	width: 80%;
 	font-size: 18px;
 	color: white;
 	font-weight: 200px;
